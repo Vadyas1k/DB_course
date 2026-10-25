@@ -1,5 +1,0 @@
-1	MNIST	classification	70000
-2	CIFAR-10	classification	60000
-3	IMDB Reviews	sentiment	50000
-4	Boston Housing	regression	506
-5	Titanic	classification	891

@@ -34,7 +34,7 @@ MiniDB поддерживает создание таблиц, CRUD-операц
 Перейди в директорию проекта:
 
 ```bash
-cd "D:\VS\VS Projects\DB lab"
+cd lab1
 ```
 
 Запусти CLI:
@@ -56,13 +56,13 @@ python main.py путь\к\базе
 Для подготовки демонстрационных данных:
 
 ```bash
-python main.py seed
+python main.py seed dir_name
 ```
 
 Принудительное заполнение с перезаписью существующих тестовых данных:
 
 ```bash
-python main.py seed --force
+python main.py seed dir_name --force
 ```
 
 Также в проекте предусмотрен отдельный скрипт:
