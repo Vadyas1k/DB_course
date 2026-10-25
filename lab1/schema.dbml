@@ -1,0 +1,20 @@
+Table datasets {
+  id int [pk]
+  name varchar
+  task varchar
+  size int
+}
+
+Table models {
+  id int [pk]
+  name varchar
+  version varchar
+}
+
+Table experiments {
+  id int [pk]
+  dataset_id int [ref: > datasets.id]
+  model_id int [ref: > models.id]
+  accuracy float
+  status varchar
+}
